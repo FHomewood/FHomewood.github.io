@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    transition: 0.5s;
+}
+body{
+    background-image: url(images/background_0.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.container{
+    width: 100vw;
+    height: 95vh;
+    padding-top: 5vh;
+    position: relative;
+    transition: 0.5s ease;
+}
+.navbar{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    background: rgba(29,33,61,0.5);
+    padding: 0 60px; 
+    overflow: hidden;
+}
+.logo{
+    /*width: 155px;*/
+}
+.logo img{
+    width: 30px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    left:30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.logo:hover{
+    color:#aaa;
+}
+nav{
+    text-align:center;
+    position: relative;
+    left:50vw;
+    right:155px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    width:100px;
+    margin: auto 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transform:translateX(-50%);
+}
+nav ul li:hover{
+    color:#aaa;
+    transition: 0.3s;
+}
+.sidebar{
+    width: 155px;
+    height: 100vh;
+    background: rgba(29,31,58,0.5);
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    overflow: hidden;
+}
+#subsections{
+    top:0;
+    display: block;
+}
+.social-links{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    transform: translateY(50%);
+}
+.social-links ul{
+    transform: translateY(-50%);
+}
+.social-links ul li{
+    list-style: none;
+    border: 15px solid transparent;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.social-links ul li:hover{
+    color: #aaa;
+    transition: 0.3s;
+}
+.info-icon{
+    width:20px;
+    position: absolute;
+    left:50%;
+    bottom:30px;
+    cursor:pointer;
+    transform: translateX(-50%);
+}
+.msg-container{
+    transition: 0.5s;
+    position: absolute;
+    top: 10vh;
+    right:0px;
+    left: 185px;
+    bottom: 0px;
+    overflow: hidden;
+    margin: 5vh;
+}
+#panes{
+    display: inline-flex;
+}
+.subpane{
+    display: block;
+}
+.msg-col{
+    width: 90vw;
+    height: 90vh;
+}
+.msg-col h1{
+    display: flex;
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+    font-weight: 100;
+    margin: 10px 0;
+}
+.msg-col p{
+    color: #ddd;
+    font-size: 15px;
+    line-height: 25px;
+}
+.msg-col a{
+    display: inline-block;
+    text-decoration: none;
+    color: #444;
+    background: #fff;
+    font-size: 15px;
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-top: 25px;
+}
