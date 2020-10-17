@@ -147,3 +147,9 @@ nav ul li:hover{
     border-radius: 30px;
     margin-top: 25px;
 }
+.Home{
+    position: relative;
+}
+.Home h1{
+    margin-left: 50vw;
+}
