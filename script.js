@@ -5,11 +5,14 @@ var _navbar = document.getElementById('navlist')
 var currentPane = 0;
 var currentColumn = 0;
 // start process
+msg_colHeight = 75;
+msg_colWidth = 75;
+
 
 //handles the changes to the transform style of elements
 PaneTransition = function(){
     //Transitions to correct msg-container
-    _panes.style.transform = "translate(" + (- currentPane*90) + "vw," + (-currentColumn*90) + "vh)";
+    _panes.style.transform = "translate(" + (- currentPane*msg_colWidth) + "vw," + (-currentColumn*msg_colHeight) + "vh)";
 
     //Transitions to correct sidebar
     _sidebar.style.transform = "translateY(" + (-100 * currentPane) + "vh)";

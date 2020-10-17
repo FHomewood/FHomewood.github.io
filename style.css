@@ -31,9 +31,10 @@ body{
 .logo img{
     width: 30px;
     color: #fff;
-    position: relative;
+    position: absolute;
     z-index: 10;
-    left:30px;
+    left: 10vw;
+    transform: translate(-50%,-50%);
     cursor: pointer;
     transition: 0.2s;
 }
@@ -44,7 +45,7 @@ nav{
     text-align:center;
     position: relative;
     left:50vw;
-    right:155px;
+    right:10px;
 }
 nav ul li{
     list-style: none;
@@ -62,12 +63,12 @@ nav ul li:hover{
     transition: 0.3s;
 }
 .sidebar{
-    width: 155px;
+    width: 10vw;
     height: 100vh;
     background: rgba(29,31,58,0.5);
     position: absolute;
     top: 0px;
-    left: 30px;
+    left: 5vw;
     overflow: hidden;
 }
 #subsections{
@@ -107,12 +108,13 @@ nav ul li:hover{
 .msg-container{
     transition: 0.5s;
     position: absolute;
+    transform: 10%;
     top: 10vh;
-    right:0px;
-    left: 185px;
-    bottom: 0px;
+    left: 15vw;
+    width: 75vw;
+    height: 75vh;
     overflow: hidden;
-    margin: 5vh;
+    margin: 5vh 5vw;
 }
 #panes{
     display: inline-flex;
@@ -121,8 +123,8 @@ nav ul li:hover{
     display: block;
 }
 .msg-col{
-    width: 90vw;
-    height: 90vh;
+    width: 75vw;
+    height: 75vh;
 }
 .msg-col h1{
     display: flex;
@@ -130,7 +132,6 @@ nav ul li:hover{
     color: #fff;
     font-size: 80px;
     font-weight: 100;
-    margin: 10px 0;
 }
 .msg-col p{
     color: #ddd;
@@ -148,9 +149,10 @@ nav ul li:hover{
     margin-top: 25px;
 }
 .Home{
-    position: relative;
+    display: inline-block;
 }
 .Home h1{
-    margin-left: 50vw;
+    display: inline-block;
+    margin-left: 50%;
     transform: translateX(-50%);
 }
