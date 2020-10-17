@@ -8,7 +8,6 @@ var currentColumn = 0;
 msg_colHeight = 75;
 msg_colWidth = 75;
 
-
 //handles the changes to the transform style of elements
 PaneTransition = function(){
     //Transitions to correct msg-container
@@ -38,18 +37,15 @@ PaneTransition = function(){
     for (var i = 0; i < _navbar.children.length; i++){
         var el = _navbar.children[i];
         if (i < currentPane - 1) {
-            el.style.transform = "translateX(-5vw)";
-            el.style.transform += "translateX(" + -150*currentPane + "px)";
+            el.style.transform = "translate(20vw,-50%)";
             el.style.color = "#ddd";
         }
         if (i == currentPane - 1){
-            el.style.transform = "translateX(0vw)";
-            el.style.transform += "translateX(" + -150*currentPane + "px)";
+            el.style.transform = "translate(40vw)";
             el.style.color = "#fff";
         }
         if (i > currentPane - 1) {
-            el.style.transform = "translateX(5vw)";
-            el.style.transform += "translateX(" + -150*currentPane + "px)";
+            el.style.transform = "translate(65vw,-50%)";
             el.style.color = "#ddd";
         }
     }
@@ -97,3 +93,5 @@ logo.onclick = function(){
     currentPane = 0;
     PaneTransition();
 }
+
+PaneTransition();

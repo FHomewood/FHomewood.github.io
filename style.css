@@ -18,23 +18,24 @@ body{
     transition: 0.5s ease;
 }
 .navbar{
+    top:5vh;
     height: 5vh;
-    display: flex;
+    display: inline-block;
     align-items: center;
     background: rgba(29,33,61,0.5);
-    padding: 0 60px; 
     overflow: hidden;
 }
 .logo{
-    /*width: 155px;*/
+    align-items: center;
 }
 .logo img{
-    width: 30px;
     color: #fff;
-    position: absolute;
+    position: relative;
     z-index: 10;
     left: 10vw;
-    transform: translate(-50%,-50%);
+    margin: 1vh auto;
+    width: 3vh;
+    transform: translate(-50%);
     cursor: pointer;
     transition: 0.2s;
 }
@@ -42,21 +43,21 @@ body{
     color:#aaa;
 }
 nav{
-    text-align:center;
+    transform: translateY(-50%);
     position: relative;
-    left:50vw;
-    right:10px;
+    height: 100%;
+    width: 100vw;
 }
 nav ul li{
     list-style: none;
     display: inline-block;
     width:100px;
-    margin: auto 30px;
     text-decoration: none;
     color: #fff;
     font-size: 16px;
+    transform:translateY(-50%);
     cursor: pointer;
-    transform:translateX(-50%);
+    text-align: center;
 }
 nav ul li:hover{
     color:#aaa;
