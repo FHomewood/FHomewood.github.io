@@ -152,4 +152,5 @@ nav ul li:hover{
 }
 .Home h1{
     margin-left: 50vw;
+    transform: translateX(-50%);
 }
