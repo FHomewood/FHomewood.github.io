@@ -72,7 +72,7 @@ for( var i = 0 ; i < _sidebar.children.length ; i++ )
 //assigns correct functions to li's in the navbar
 assignNavbarButton = function(col){
     return function(){
-        document.body.style.backgroundImage = "url('images/background_" + col + ".jpg')";
+        document.body.style.backgroundImage = "url('./images/background_" + col + ".jpg')";
         currentPane = col;
         currentColumn = 0;
         PaneTransition();
@@ -88,7 +88,7 @@ for( var i = 0 ; i < _navbar.children.length ; i++ )
 //assigns the logo functionality
 var logo = document.getElementById('logo');
 logo.onclick = function(){
-    document.body.style.backgroundImage = "url('images/background_0.jpg')";
+    document.body.style.backgroundImage = "url('./images/background_0.jpg')";
     currentColumn = 0;
     currentPane = 0;
     PaneTransition();

@@ -5,7 +5,7 @@
     transition: 0.5s;
 }
 body{
-    background-image: url(images/background_0.jpg);
+    background-image: url(./images/background_0.jpg);
     background-position: center;
     background-size: cover;
 
