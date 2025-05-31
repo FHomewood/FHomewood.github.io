@@ -135,7 +135,7 @@ body {
 }
 
 .social-icon {
-    height: 2vmin;
+    height: 3vmin;
     margin: 0 1vmin;
     color: var(--text-color-dark);
 }
