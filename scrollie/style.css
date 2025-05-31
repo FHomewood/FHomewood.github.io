@@ -7,9 +7,11 @@ body {
     display: flex;
     justify-content: center;
 }
+
 .main-content {
     background: #D3DDDE;
-    position: relative;;
+    position: relative;
+    ;
     border-radius: 2vmin;
     min-width: 98vmin;
     max-width: 70vmax;
@@ -36,16 +38,21 @@ body {
 }
 
 .overview-bullet-points {
-    position: relative;
     width: 100%;
+    height: 100%;
+    align-self: center;
+}
+
+.overview-bullet-point {
+    background: #dce5e5ff;
+    border-radius: 5px;
+    color: #727272;
+    padding: 15px;
+    font-size: 2rem;
 }
 
 .point-1 {
-    background: #dce5e5ff;
-    border-radius: 5px;
-    color: rgb(114, 114, 114);
     margin: 0 20px 20px 20px;
-    padding: 15px;
 }
 
 .point-2 {
@@ -64,7 +71,19 @@ body {
     padding: 15px;
 }
 
-.overview-image {
+.overview-image-container {
     align-self: flex-end;
-    width: 50%;
+    width: 40%;
+}
+
+.overview-image {
+    width: 100%;
+    height: 100%;
+}
+
+.separator {
+    width: 100%;
+    height: .5vmin;
+    background: #85b5b9;
+    margin: 0 0 20px 0;
 }
