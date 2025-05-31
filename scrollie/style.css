@@ -7,8 +7,9 @@
     --separator-color: #98c0c3;
 
     font-family: 'Lato', 'Arial', sans-serif;
-
+    font-size: 2vmin;
 }
+
 
 body {
     width: 100%;
@@ -138,4 +139,18 @@ body {
     height: 3vmin;
     margin: 0 1vmin;
     color: var(--text-color-dark);
+}
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.project-card {
+    background: var(--text-container-bg);
+    border-radius: 1vmin;
+    padding: 2vmin;
+    margin: 1vmin;
+    width: 30vmin;
 }
