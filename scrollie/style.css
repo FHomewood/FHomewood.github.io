@@ -27,20 +27,27 @@ body {
     min-width: 98vmin;
     max-width: 98vmin;
     margin: 1vmin;
-    box-shadow: 0 0 10px rgba(0, 48, 47, 0.5)
+    box-shadow: 0 0 1vmin rgba(0, 48, 47, 0.5)
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 .header-text {
     color: #001010;
     padding: 2vmin;
-    font-size: 2vmin;
+    text-transform: uppercase;
+}
+
+.heading-text {
+    color: #001010;
     cursor: default;
+    margin: 0 5vmin;
+    text-transform: uppercase;
 }
 
 .header-icon {
@@ -63,7 +70,6 @@ body {
     border-radius: 1vmin;
     color: var(--text-color-dark);
     padding: 1vmin;
-    font-size: 2vmin;
 }
 
 .point-1 {
@@ -89,7 +95,6 @@ body {
 }
 
 .separator {
-    width: 100%;
     height: .5vmin;
     background: var(--separator-color);
     margin: 0 0 1vmin 0;
@@ -104,17 +109,25 @@ body {
 .resume-button {
     background: var(--text-container-bg);
     color: var(--text-color-dark);
+
     border-radius: 1vmin;
     padding: 1vmin 2vmin;
-    font-size: 2vmin;
     cursor: pointer;
-    margin: 0 5vmin;
+    margin: 2vmin 5vmin;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     right: 0;
+}
+
+.hover-highlight {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0 1vmin rgba(0, 48, 47, 0.2);
+}
+.hover-highlight:hover {
+    box-shadow: 0 0 1vmin rgba(0, 48, 47, 0.6);
 }
 
 .resume-icon {
@@ -127,21 +140,27 @@ body {
     align-items: center;
     justify-content: space-between;
     background: var(--separator-color);
-    padding: 1vmin 2vmin;
     border-radius: 0 0 1vmin 1vmin;
+}
+
+.footer-text {
+    margin: 0 2vmin;
 }
 
 .socials {
     display: flex;
+    margin: 0 3vmin
 }
 
 .social-icon {
     height: 3vmin;
-    margin: 0 1vmin;
+    padding: 1vmin;
     color: var(--text-color-dark);
 }
+
 .projects-container {
     display: flex;
+    margin: 2vmin;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
@@ -149,8 +168,38 @@ body {
 
 .project-card {
     background: var(--text-container-bg);
+    color: var(--text-color-dark);
     border-radius: 1vmin;
-    padding: 2vmin;
-    margin: 1vmin;
     width: 30vmin;
+    aspect-ratio: 4 / 3;
+    padding: .5vmin;
+    margin: 2vmin;
+    position: relative;
+}
+
+.project-title {
+    position: absolute;
+    top: 0;
+    padding: .5vmin;
+    margin: 0;
+}
+
+.project-description {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+}
+
+.automate-dv-bg{
+    background-image: url('resources/package.svg') !important;
+    background-size: 9vmin !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.bdd-bg{
+    background-image: url('resources/bdd.svg') !important;
+    background-size: 20vmin !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
 }
