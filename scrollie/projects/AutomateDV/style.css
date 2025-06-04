@@ -1,0 +1,123 @@
+.subheading-text {
+    color: #001010;
+    font-size: 2vmin;
+    margin: 0 8vmin;
+}
+
+.project-image {
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    height: 60%;
+    border-radius: 1vmin;
+}
+
+.project-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card {
+    box-shadow: 0 0 .5vmin rgba(0, 48, 47, 0.3);
+    height: 13vmin;
+    width: unset;
+    aspect-ratio: 4 / 1;
+}
+
+.project-title {
+    width: 70%;
+}
+
+.project-description {
+    width: 70%;
+    bottom: 1vmin;
+}
+
+.context-text {
+    background: var(--text-container-bg);
+    border-radius: 1vmin;
+    color: var(--text-color-dark);
+    padding: 1vmin;
+    font-size: 2vmin;
+    margin: 3vmin 5vmin;
+}
+
+.technologies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2vmin 0;
+}
+
+.technology-card {
+    background: var(--text-container-bg);
+    color: var(--text-color-dark);
+    width: 25vmin;
+    aspect-ratio: 4/3;
+    border-radius: 1vmin;
+    padding: 1vmin;
+    margin: 1vmin;
+    font-size: 2vmin;
+    box-shadow: 0 0 .5vmin rgba(0, 48, 47, 0.3);
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+.technology-icon {
+    position: absolute;
+    max-width: 20vmin;
+    max-height: 16vmin;
+    align-self: center;
+}
+.technology-title {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 1vmin;
+}
+.links-section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.link-card {
+    box-shadow: 0 0 .5vmin rgba(0, 48, 47, 0.3);
+    margin: 1vmin;
+    height: 10vmin;
+    width: unset;
+    aspect-ratio: 4 / 1;
+}
+.results-section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 5vmin;
+}
+.results-card {
+    background: var(--text-container-bg);
+    color: var(--text-color-dark);
+    width: 20vmin;
+    border-radius: 1vmin;
+    padding: 1vmin;
+    margin: 3vmin;
+    box-shadow: 0 0 .5vmin rgba(0, 48, 47, 0.3);
+    display: flex;
+    flex-direction: column;
+}
+.results-image {
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    align-self: center;
+    padding: 1vmin;
+}
+
+.return-indicator{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 4vmin;
+    cursor: pointer;
+    pointer-events: none;
+}
