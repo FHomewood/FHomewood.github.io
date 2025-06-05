@@ -6,9 +6,9 @@
 
 .project-image {
     position: absolute;
-    right: 10%;
-    top: 20%;
-    height: 60%;
+    right: 5%;
+    top: 25%;
+    height: 50%;
     border-radius: 1vmin;
 }
 
@@ -120,4 +120,22 @@
     margin: 4vmin;
     cursor: pointer;
     pointer-events: none;
+}
+
+.code-block {
+    font-size: 1.7vmin;
+}
+
+.code-header {
+    color: hsl(179, 100%, 11%);
+    font-weight: bolder;
+}
+.code-keyword {
+    color: hsl(179, 80%, 20%);
+    font-weight: bolder;
+}
+
+.code-input {
+    color: hsl(179, 80%, 20%);
+    text-decoration: dotted underline;
 }
