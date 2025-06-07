@@ -1,0 +1,16 @@
+.project-image {
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    height: 70%;
+    border-radius: 1vmin;
+}
+
+.project-title {
+    width: 80%;
+}
+
+.project-description {
+    width: 80%;
+    bottom: 1vmin;
+}

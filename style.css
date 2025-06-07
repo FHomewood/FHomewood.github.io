@@ -127,6 +127,7 @@ body {
     transition: box-shadow 0.3s ease-in-out;
     box-shadow: 0 0 1vmin rgba(0, 48, 47, 0.2);
 }
+
 .hover-highlight:hover {
     box-shadow: 0 0 1vmin rgba(0, 48, 47, 0.6);
 }
@@ -191,14 +192,14 @@ body {
     margin: 0;
 }
 
-.automate-dv-bg{
+.automate-dv-bg {
     background-image: url('resources/package.svg') !important;
     background-size: 9vmin !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
 }
 
-.bdd-bg{
+.bdd-bg {
     background-image: url('resources/bdd.svg') !important;
     background-size: 17vmin !important;
     background-repeat: no-repeat !important;
@@ -206,9 +207,16 @@ body {
 }
 
 
-.gas-station-bg{
+.gas-station-bg {
     background-image: url('resources/flow_chart.svg') !important;
     background-size: 9vmin !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.genai-bg {
+    background-image: url('resources/genai.svg') !important;
+    background-size: 12vmin !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
 }
