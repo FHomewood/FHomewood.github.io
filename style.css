@@ -159,6 +159,12 @@ body {
     height: 3vmin;
     padding: 1vmin;
     color: var(--text-color-dark);
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0 1vmin rgba(0, 48, 47, 0.0);
+}
+
+.social-icon:hover {
+    box-shadow: 0 0 1vmin rgba(0, 48, 47, 0.5);
 }
 
 .projects-container {
