@@ -3,6 +3,7 @@
     --main-cntnr-bg: #d3ddde;
     --text-container-bg: #dce5e5;
     --text-color-dark: #00302f;
+    --text-color-header: #002221;
     --text-color-light: #b3e6e5;
     --separator-color: #98c0c3;
 
@@ -38,13 +39,13 @@ body {
 }
 
 .header-text {
-    color: #001010;
+    color: var(--text-color-header);
     padding: 2vmin;
     text-transform: uppercase;
 }
 
 .heading-text {
-    color: #001010;
+    color: var(--text-color-header);
     cursor: default;
     margin: 0 5vmin;
     text-transform: uppercase;
@@ -205,7 +206,7 @@ body {
 }
 
 
-.service-station-bg{
+.gas-station-bg{
     background-image: url('resources/flow_chart.svg') !important;
     background-size: 9vmin !important;
     background-repeat: no-repeat !important;

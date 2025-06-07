@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Frankie Homewood</title>
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:400,700' type='text/css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:400,700'>
     <link rel="stylesheet" href="/style.css" type="text/css">
+    <link rel="stylesheet" href="../style.css" type="text/css">
     <link rel="stylesheet" href="./style.css" type="text/css">
     <link rel="icon" href="/resources/icon.svg" type="image/x-icon">
 </head>
@@ -20,10 +21,11 @@
         <h3 class='heading-text'>P R O J E C T</h3>
         <div class='project-section-container'>
             <div class='project-card'>
-                <img class='project-image' src='/resources/bdd.svg' alt='project image' />
+                <img class='project-image' src='/resources/flow_chart.svg' alt='project image' />
                 <h4 class='project-title'>Creating Gas Station Customer Insights</h4>
                 <p class='project-description'>
-                    Utilizing transactions from a network of gas stations to create a method of monitoring customer behavior and preferences.
+                    Utilizing transactions from a network of gas stations to create a method of
+                    monitoring customer behavior and preferences.
                 </p>
             </div>
         </div>
@@ -31,10 +33,33 @@
         <h3 class='heading-text'>B A C K G R O U N D</h3>
         <div class='context-section-container'>
             <p class='context-text'>
+                The company manages a large network of gas stations across the main land
+                United States including both fuel pumps and the surrounding convenience stores.
+                They have a system in place to record the customer transactions at each point
+                of sale.
             </p>
             <p class='context-text'>
+                They have been using a loyalty program to identify their customers who use their
+                loyalty card alongside their purchases.
             </p>
             <p class='context-text'>
+                This project looked to expand their existing simplistic approach to be able to
+                track the behaviour of customers who are not affiliated with the loyalty program.
+                By associating purchases from the same bank card and also bank cards that have
+                historically been associated with a loyalty card.
+            </p>
+            <div class="flow-chart-container"><img class="flow-chart" alt="Flow chart for wallet business logic"/></div>
+            <p class='context-text'>
+                To do this we created a set of business rules that would switch which payment
+                methods were associated with a hypothetical customer's wallet.
+            </p>
+            <p class='context-text'>
+                This allowed us to observe customer behaviours in loyalty card customers and apply
+                that insight to estimate attributes of anonymous bank card users.
+            </p>
+            <p class='context-text'>
+                i.e. We don't have any provided information for this bank card but we can observe
+                that its owner is behaving similar to our loyalty card users in the 18-24 age range.
             </p>
         </div>
         <div class='separator'></div>
@@ -51,12 +76,21 @@
         <h3 class='heading-text'>C H A L L E N G E S</h3>
         <div class='challenges-section-container'>
             <p class='context-text'>
+                Unlike many of the other projects, the toughest part of this project was scoping
+                out the expectations and getting a clear picture of the acceptance criteria.
             </p>
             <p class='context-text'>
+                The next layer of challenge that this project posed is the sheer complexity of the
+                business logic at hand, it was a gargantuan task to implement this in a way that
+                has the ability to scale with the quantity of transactions being sourced.
             </p>
             <p class='context-text'>
-            </p>
-            <p class='context-text'>
+                There were a significant number of quirks and edge cases that came with the
+                requirements that were baked into the design. One of these for example is that
+                all cash transactions need to belong to a wallet, however since there is no way to
+                tie any cash transactions together they all belong to the same wallet, implying
+                to the analysts that there's one trucker with millions of dollar zipping around the
+                continent.
             </p>
         </div>
         <div class='separator'></div>
@@ -64,21 +98,25 @@
         <h3 class='heading-text'>O U T C O M E</h3>
         <div class='results-section-container'>
             <div class='results-card'>
-                <img class='results-image' src='/resources/.svg' alt='' />
+                <img class='results-image' src='/resources/network.svg' alt='network icon' />
                 <p class='results-text'>
+                    We successfully created a "wallet" entity that made it easier and more accurate
+                    for analysts to monitor customer behaviour.
                 </p>
             </div>
             <div class='results-card'>
-                <img class='results-image' src='/resources/.svg' alt='' />
+                <img class='results-image' src='/resources/handshake.svg' alt='handshake icon' />
                 <p class='results-text'>
-                    The new approach built trust with the business to have confidence
-                    that the code was robust and aligned with business goals.
+                    Analysts then produced new insights that were previously unattainable. Fuelling
+                    better business decisions driven by data.
                 </p>
             </div>
 
             <div class='results-card'>
-                <img class='results-image' src='/resources/.svg' alt='' />
+                <img class='results-image' src='/resources/wrench.svg' alt='tools icon' />
                 <p class='results-text'>
+                    The approach was built to be maintainable and flexible to any changes in how
+                    the business decides how wallets are handled.
                 </p>
             </div>
         </div>
@@ -87,10 +125,20 @@
         <h3 class='heading-text'>G R O W T H</h3>
         <div class='growth-section-container'>
             <p class='context-text'>
+                This project was the teetering on the precipice of failure throughout. To achieve a
+                project of this scale was not simple to estimate in advance, as a result I grew a
+                lot in my ability to work under time constraints and to communicate when
+                expectations need to change.
             </p>
             <p class='context-text'>
+                The complexity of the design is likely the most intricate and nuanced set of
+                requirements that I have implemented into an existing warehouse. My ability to
+                create complex logic in a way that is not too rigid or inflexible to maintain.
             </p>
             <p class='context-text'>
+                Documenting and demonstrating the efficacy of this approach helped me improve my
+                ability to explain technically complicated work to business stakeholders and
+                distill the useful information to the right people.
             </p>
         </div>
 
