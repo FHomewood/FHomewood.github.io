@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="95.5mm"
+   height="90.499992mm"
+   viewBox="0 0 95.5 90.499992"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"><inkscape:page
+       x="0"
+       y="0"
+       width="95.5"
+       height="90.499992"
+       id="page2"
+       margin="0"
+       bleed="0" /></sodipodi:namedview><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-68.411507,-69.630721)"><path
+       d="m 71.161506,82.380724 9.999999,-9.999999 m 79.999995,9.999999 -10,-9.999999 m -50,44.999995 10,10 20,-20 m 25,10 c 0,22.0915 -17.9085,40 -40,40 -22.091396,0 -39.999994,-17.9085 -39.999994,-40 0,-22.091395 17.908598,-39.999995 39.999994,-39.999995 22.0915,0 40,17.9086 40,39.999995 z"
+       stroke="#000000"
+       stroke-width="10"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path1"
+       style="fill:none;stroke:#7caeae;stroke-width:5.5;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="clock.svg"
+       inkscape:export-xdpi="26.190001"
+       inkscape:export-ydpi="26.190001" /></g></svg>

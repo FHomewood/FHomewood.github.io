@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="186.38887mm"
+   height="186.38887mm"
+   viewBox="0 0 186.38887 186.38887"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"><inkscape:page
+       x="-1.6508384e-14"
+       y="-2.0231929e-14"
+       width="186.38889"
+       height="186.38889"
+       id="page2"
+       margin="0"
+       bleed="0" /></sodipodi:namedview><defs
+     id="defs1"><marker
+       markerWidth="0.63628411"
+       markerHeight="0.99999994"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       id="CapButt"
+       viewBox="0 0 0.63628413 1"
+       inkscape:stockid="Butt cap"
+       style="overflow:visible"
+       preserveAspectRatio="xMidYMid"
+       inkscape:isstock="true"
+       inkscape:collect="always"><path
+         style="fill:context-stroke;stroke-linecap:butt"
+         d="M 0,-1 H 0.585 C 1.107,-1 1.369,-0.369 1,0 1.369,0.369 1.107,1 0.585,1 H 0 L -0.1,0 Z"
+         sodipodi:nodetypes="sssssscsss"
+         transform="scale(0.5)"
+         id="path64" /></marker></defs><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-11.580555,-55.236806)"><path
+       id="path2"
+       style="fill:none;fill-opacity:1;stroke:#7caeae;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#CapButt)"
+       d="m 104.775,183.70903 a 35.27778,35.27778 0 0 1 0,-70.55556 m 0,70.55556 v 17.63889 m 0,-17.63889 a 35.163125,35.163125 0 0 0 24.94139,-10.33639 M 104.775,113.15347 V 95.514583 m 0,17.638887 c 9.74549,0 18.56493,3.95111 24.94139,10.33639 M 104.775,236.62569 c 48.70979,0 88.19444,-39.48465 88.19444,-88.19444 0,-48.709792 -39.48465,-88.194444 -88.19444,-88.194444 -48.709791,0 -88.194444,39.484652 -88.194444,88.194444 0,48.70979 39.484653,88.19444 88.194444,88.19444 z" /></g></svg>
