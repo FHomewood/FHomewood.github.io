@@ -115,9 +115,9 @@
 
 .return-indicator{
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 0;
-    margin: 4vmin;
-    cursor: pointer;
-    pointer-events: none;
+    margin: 0;
+    margin-left: 5vmin;
+    transform: translateY(-50%);
 }
