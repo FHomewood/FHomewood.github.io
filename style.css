@@ -228,7 +228,7 @@ body {
     background-position: center !important;
 }
 
-.dq-dashboard-bg{
+.dq-dashboard-bg {
     background-image: url('resources/speedometer.svg') !important;
     background-size: 10vmin !important;
     background-repeat: no-repeat !important;
