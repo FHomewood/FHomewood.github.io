@@ -15,3 +15,4 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - Shared projects stylesheet has been renamed to reflect how it's used.
+- Socials in footer highlight is now circular.
