@@ -115,9 +115,19 @@
 
 .return-indicator{
     position: absolute;
-    top: 50%;
+    height: 100%;
+    width: 10vmin;
     left: 0;
-    margin: 0;
-    margin-left: 5vmin;
-    transform: translateY(-50%);
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    color: var(--text-color-dark);
+}
+
+.header-box {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: var(--text-color-dark)
 }
