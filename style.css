@@ -161,6 +161,7 @@ body {
     color: var(--text-color-dark);
     transition: box-shadow 0.3s ease-in-out;
     box-shadow: 0 0 1vmin rgba(0, 48, 47, 0.0);
+    border-radius: 50%;
 }
 
 .social-icon:hover {
@@ -183,6 +184,17 @@ body {
     aspect-ratio: 4 / 3;
     padding: .5vmin;
     margin: 2vmin;
+    position: relative;
+}
+
+.personal-project-card {
+    background: var(--text-container-bg);
+    color: var(--text-color-dark);
+    border-radius: 1vmin;
+    width: 25vmin;
+    aspect-ratio: 4 / 3;
+    padding: .5vmin;
+    margin: 1vmin;
     position: relative;
 }
 
@@ -224,6 +236,27 @@ body {
 .genai-bg {
     background-image: url('resources/genai.svg') !important;
     background-size: 12vmin !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.slabsprak-bg {
+    background-image: url('resources/slabsprak.svg') !important;
+    background-size: 16vmin !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.boids-bg {
+    background-image: url('resources/boids.svg') !important;
+    background-size: 14vmin !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.bingo-bg {
+    background-image: url('resources/bingo.svg') !important;
+    background-size: 10vmin !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
 }
