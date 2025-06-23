@@ -161,6 +161,7 @@ body {
     color: var(--text-color-dark);
     transition: box-shadow 0.3s ease-in-out;
     box-shadow: 0 0 1vmin rgba(0, 48, 47, 0.0);
+    border-radius: 50%;
 }
 
 .social-icon:hover {
