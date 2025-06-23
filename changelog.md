@@ -17,3 +17,6 @@ All notable changes to this project will be documented in this file.
 - Shared projects stylesheet has been renamed to reflect how it's used.
 - Socials in footer highlight is now circular.
 - Return button and header link separated into distinct buttons.
+
+### Removed
+- Return button no longer has hyperlink default colours.
