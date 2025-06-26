@@ -23,6 +23,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 ### Changed
+- "Given When Then" icon has a consistent font across machines.
 
 ### Deprecated
 
