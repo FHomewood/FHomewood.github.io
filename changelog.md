@@ -21,11 +21,8 @@ All notable changes to this project will be documented in this file.
 
 ## [unreleased]
 ### Added
-- Reading list section for showing finished/in progress books of note.
 
 ### Changed
-- "Given When Then" icon has a consistent font across machines.
-- Hovering over buttons now makes the colour slightly brighter.
 
 ### Deprecated
 
@@ -34,6 +31,15 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 
 ### Security
+
+
+## [0.1.2] 2025-06-28
+### Added
+- Reading list section for showing finished/in progress books of note.
+
+### Changed
+- "Given When Then" icon has a consistent font across machines.
+- Hovering over buttons now makes the colour slightly brighter.
 
 
 ## [0.1.1] 2025-06-23
