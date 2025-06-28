@@ -25,6 +25,7 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - "Given When Then" icon has a consistent font across machines.
+- Hovering over buttons now makes the colour slightly brighter.
 
 ### Deprecated
 
