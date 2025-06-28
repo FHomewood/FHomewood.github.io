@@ -102,6 +102,12 @@ body {
     margin: 0 0 1vmin 0;
 }
 
+.v-separator {
+    width: .2vmin;
+    background: var(--separator-color);
+    margin: 2vmin;
+}
+
 .resume-section-container {
     display: flex;
     align-items: center;
@@ -209,6 +215,115 @@ body {
     position: absolute;
     bottom: 0;
     margin: 0;
+}
+
+.bookshelf {
+    display: flex;
+}
+
+.professional-books {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 1vmin 0 1vmin 1vmin;
+    justify-content: right;
+}
+
+.personal-books {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: left;
+    margin: 1vmin 1vmin 1vmin 0;
+}
+
+.book-details {
+    text-decoration: none;
+    color: var(--text-color-dark)
+}
+
+.book-title {
+    padding: 0;
+    margin: 0;
+}
+
+.book-card {
+    height: 15vmin;
+    width: 9vmin;
+    margin: .4vmin;
+    position: relative;
+}
+
+.book-cover {
+    position: absolute;
+    bottom: 0;
+    background: var(--text-container-bg);
+    max-width: 100%;
+    max-height: 100%;
+    filter: saturate(0.4);
+}
+.book-cover:hover {
+    filter: none;
+}
+
+.book-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.book-author {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+*:has(> .tooltip) .tooltip {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    width: max-content;
+    max-width: 30vmin;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1vmin;
+
+    border-radius: .5vmin;
+    background-color: var(--text-color-dark);
+    color: var(--text-container-bg);
+    text-align: center;
+    top: 105%
+
+}
+
+.tooltip * {
+    text-decoration: underline var(--text-color-dark);
+}
+
+*:has(>.tooltip):hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip>h1 {
+    font-size: 1.8vmin;
+    margin: 0;
+    padding: 0;
+}
+
+.tooltip>h2 {
+    font-size: 1.4vmin;
+    margin: 0;
+    padding: 0;
+}
+
+.tooltip>p {
+    font-size: 1.4vmin;
+    margin: 0;
+    padding: 0;
 }
 
 .automate-dv-bg {
