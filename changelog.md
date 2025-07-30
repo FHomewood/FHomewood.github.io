@@ -33,6 +33,11 @@ All notable changes to this project will be documented in this file.
 ### Security
 
 
+## [0.1.3] 2025-07-30
+### Added
+- Metadata tags for open graph protocol for social media.
+
+
 ## [0.1.2] 2025-06-28
 ### Added
 - Reading list section for showing finished/in progress books of note.
