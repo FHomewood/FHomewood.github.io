@@ -21,6 +21,7 @@ All notable changes to this project will be documented in this file.
 
 ## [unreleased]
 ### Added
+- Metadata tags for open graph protocol for social media.
 
 ### Changed
 
